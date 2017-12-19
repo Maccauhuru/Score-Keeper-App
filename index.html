@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Game Score Keeper</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
 </head>
 <link rel="stylesheet" type="text/css" href="scorekeeper.css">
+
 <body>
-	<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
-	<p>Playing to:<span id="numPlays"></span></p>
+	<p>
+		<h1>Score Keeper App</h1>
+	</p>
+	<h1>
+		<span id="p1Display">0</span> to
+		<span id="p2Display">0</span>
+	</h1>
+	<p>Playing to:
+		<span id="numPlays"></span>
+	</p>
 	<input type="number" id="gameScore" value="">
-	<button id="p1">Player One</button>
-	<button id="p2">Player Two</button>
-	<button id="reset">Reset Scores</button>
-<script type="text/javascript" src="score.js"></script>
+	<button id="p1" class="btn btn-primary">Player One</button>
+	<button id="p2" class="btn btn-primary"> Player Two</button>
+	<button id="reset" class="btn btn-danger">Reset Scores</button>
+	<script type="text/javascript" src="score.js"></script>
 </body>
+
 </html>
